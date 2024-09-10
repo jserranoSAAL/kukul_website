@@ -1,0 +1,132 @@
+{
+  "autoPlay": true,
+  "background": {
+    "color": {
+      "value": "rgb(33, 37, 41)"
+    },
+    "image": "url('https://particles.js.org/images/background3.jpg')",
+    "position": "50% 50%",
+    "repeat": "no-repeat",
+    "size": "cover",
+    "opacity": 1
+  },
+  "backgroundMask": {
+    "composite": "destination-out",
+    "cover": {
+      "color": {
+        "value": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "opacity": 1
+    },
+    "enable": true
+  },
+  "clear": true,
+  "defaultThemes": {},
+  "delay": 0,
+  "fullScreen": {
+    "enable": true,
+    "zIndex": 0
+  },
+  "detectRetina": true,
+  "duration": 0,
+  "fpsLimit": 120,
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onHover": {
+        "enable": false,
+        "mode": "bubble",
+        "parallax": {
+          "enable": false,
+          "force": 2,
+          "smooth": 10
+        }
+      },
+      "resize": {
+        "delay": 0.5,
+        "enable": true
+      }
+    },
+    "modes": {
+      "bubble": {
+        "distance": 400,
+        "duration": 2,
+        "opacity": 1,
+        "size": 100
+      },
+      "push": {
+        "quantity": 4
+      }
+    }
+  },
+  "manualParticles": [],
+  "particles": {
+    "bounce": {
+      "horizontal": {
+        "value": 1
+      },
+      "vertical": {
+        "value": 1
+      }
+    },
+    "collisions": {
+      "enable": false
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none",
+      "outModes": {
+        "default": "out"
+      }
+    },
+    "number": {
+      "density": {
+        "enable": true,
+        "width": 1920,
+        "height": 1080
+      },
+      "value": 80
+    },
+    "opacity": {
+      "value": 1
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "value": {
+        "min": 1,
+        "max": 30
+      }
+    },
+    "links": {
+      "enable": true,
+      "color": "#ffffff",
+      "distance": 150,
+      "opacity": 1,
+      "width": 1
+    }
+  },
+  "pauseOnBlur": true,
+  "pauseOnOutsideViewport": true,
+  "zLayers": 100,
+  "motion": {
+    "disable": false,
+    "reduce": {
+      "factor": 4,
+      "value": true
+    }
+  }
+}
